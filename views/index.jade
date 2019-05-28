@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Client-Policies Backend Service App
+  h2 Usage
+ 
+  p /clients/id/:id
+  a Retrieve clients by Id, only if they are Admin or User role
+  
+  p /clients/name/:name
+  a Retrieve clients by name, only if they are Admin or User role
+  
+  p /policies/clients/:username
+  a Retrieve policies client username, only if they are Admin role
+
+  p /policies/:id
+  a Retrieve client by policy nº, only if they are Admin role
